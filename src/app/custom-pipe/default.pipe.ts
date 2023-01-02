@@ -5,7 +5,7 @@ import { Pipe } from "@angular/core";
 })
 export class DefaultPipe {
 
-    transform(value, fallback: string, forceHttps: boolean = false): string {
+    transform(value: string, fallback: string, forceHttps: boolean = false): string {
         let image = ""
         if (value) {
             image = value;
