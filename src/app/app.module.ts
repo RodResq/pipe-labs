@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 import { FilterPipe } from './filter.pipe';
 import { CustomPipeComponent } from './custom-pipe/custom-pipe.component';
 import { AsyncPipeComponent } from './async-pipe/async-pipe.component';
+import { AsyncObservablePipeComponent } from './async-observable-pipe/async-observable-pipe.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { AsyncPipeComponent } from './async-pipe/async-pipe.component';
     DefaultPipe,
     CustomPipeComponent,
     AsyncPipeComponent,
+    AsyncObservablePipeComponent,
   ],
   imports: [
     BrowserModule,
