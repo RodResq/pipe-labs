@@ -8,6 +8,7 @@ import { ShortenPipe } from './shorten.pipe';
 import { AppComponent } from './app.component';
 import { FilterPipe } from './filter.pipe';
 import { CustomPipeComponent } from './custom-pipe/custom-pipe.component';
+import { AsyncPipeComponent } from './async-pipe/async-pipe.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { CustomPipeComponent } from './custom-pipe/custom-pipe.component';
     ShortenPipe,
     FilterPipe,
     DefaultPipe,
-    CustomPipeComponent
+    CustomPipeComponent,
+    AsyncPipeComponent,
   ],
   imports: [
     BrowserModule,
